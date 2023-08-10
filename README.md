@@ -1,27 +1,82 @@
-# AuthFormAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+<h1 align="center">
+  <img alt="Logo Angular" src="https://raw.githubusercontent.com/felipesilva15/auth-form-angular/main/src/assets/logo.png" />
+  <br>
+  Formulário de autenticação
+</h1>
 
-## Development server
+<div align="center">
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge" alt="badge-desenvolvimento"/>
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipesilva15/auth-form-angular.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipesilva15/auth-form-angular.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipesilva15/auth-form-angular.svg">
+  <a href="https://github.com/felipesilva15/auth-form-angular/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipesilva15/auth-form-angular.svg">
+  </a>
+  <a href="https://github.com/felipesilva15/auth-form-angular/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/felipesilva15/auth-form-angular.svg">
+  </a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/felipesilva15/auth-form-angular.svg">
+</div>
 
-## Code scaffolding
+## 📝 Descrição do projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este é um projeto com a funcionalidade de autenticação, permitindo o login e proteção de rotas com guards do Angular.
 
-## Build
+Este projeto foi implantado no serviço do [GitHub Pages](https://pages.github.com/), e está disponível através do link <https://felipesilva15.github.io/auth-form-angular/>.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Rodando localmente
 
-## Running unit tests
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 📋 Pré-requisitos
 
-## Running end-to-end tests
+* Node.js
+* Rodar o projeto de [fake JWT Generator](https://github.com/felipesilva15/cursoAngular/tree/main/fake-jwt-generator) para simular o back-end.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🔧 Instalação
 
-## Further help
+1. Clone o projeto utilizando o comando abaixo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+``` bash
+  git clone https://github.com/felipesilva15/auth-form-angular.git
+```
+
+2. Acesse a pasta dos fonts deste projeto
+
+```bash
+  cd auth-form-angular
+```
+
+3. Instale as dependências do projeto
+
+```bash
+  npm install
+```
+
+4. Inicie a aplicação
+
+```bash
+  ng serve --open
+```
+
+5. Acesse a aplicação (Geralmente é inicializada no endereço <http://localhost:4200>).
+
+## 🛠️ Construído com
+
+* [Angular (TypeScript)](https://angular.io/) - Framework de TypeScript para Front-end
+* [Sass](https://sass-lang.com/) - Pré-processador de CSS
+
+## ✒️ Autores
+
+* **Felipe Silva** - *Desenvolvedor e mentor* - [felipesilva15](https://github.com/felipesilva15)
+
+## 📄 Licença
+
+Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE](https://github.com/felipesilva15/auth-form-angular/blob/main/LICENSE) para detalhes.
+
+---
+Documentado por [Felipe Silva](https://github.com/felipesilva15) 😊
